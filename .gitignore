@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs & Temporary Files
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Model Artifacts
+# ==============================
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# ==============================
+# Test & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Build & Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Optional: Ignore Local Data
+# Uncomment if you do not want to push the dataset
+# data/*.csv
+
+# ==============================
+# Optional: Ignore Generated Outputs
+# ==============================
+# outputs/
+# reports/
